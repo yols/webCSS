@@ -1,0 +1,576 @@
+..0body {
+    height: 1160px;
+    margin: 0;
+    padding: 0;
+}
+
+/*header開始*/
+
+..0header {
+    width: 100%;
+    height: 184px;
+}
+..0topbar {
+    width: 100%;
+    height: 184px;
+    background-image: url(../img/signup&demo/fake_topbar.png);
+    background-repeat: no-repeat;
+}
+
+/*header結束*/
+
+
+/*免費註冊頁面*/
+
+aritcle {
+    width: 100%;
+    display: block;
+}
+.article-range {
+    width: 100%;
+    height: 893px;
+    background-color: #0b0014;
+}
+.article-container {
+    width: 1000px;
+    height: 893px;
+    margin: 0px auto;
+}
+.article-menu-container {
+    display: inline-block;
+    position: absolute;
+    width: 208px;
+    height: 893px;
+    background-color: #221131;
+    margin: 0px 0px 0px -90px;
+}
+.article-menu {
+    list-style: none;
+    width: 208px;
+    height: 132px;
+    margin: 0;
+    padding: 0;
+    float: auto;
+}
+.article-menu li {
+    background-image: url(../img/signup&demo/article-menu-down.png);
+}
+.article-menu li a {
+    display: block;
+    /* 將超連結設定為區塊模式 */
+    width: 208px;
+    /* 超連結區塊的寬度 */
+    height: 66px;
+    /* 超連結區塊的高度 */
+    line-height: 66px;
+    /* 超連結區塊的行高 */
+    text-decoration: none;
+    /* 去除超連結的底線 */
+    color: #8e8eba;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+.article-menu li a:hover {
+    width: 208px;
+    height: 66px;
+    color: #ffffff;
+    background-image: url(../img/signup&demo/article-menu-up.png)
+}
+.article-menu li a:active {
+    background-image: url(../img/signup&demo/article-menu-up.png)
+}
+.sign-up-free {
+    display: inline-block;
+    width: 208px;
+    height: 66px;
+    background-image: url(../img/signup&demo/article-menu-sign-up-free-down.png);
+    background-repeat: no-repeat;
+}
+.sign-up-free:hover {
+    background-image: url(../img/signup&demo/article-menu-sign-up-free-up.png);
+}
+.demo {
+    display: inline-block;
+    width: 208px;
+    height: 66px;
+    background-image: url(../img/signup&demo/article-menu-demo-down.png);
+    background-repeat: no-repeat;
+}
+.demo:hover {
+    background-image: url(../img/signup&demo/article-menu-demo-up.png);
+}
+.sign-up-free-word, .demo-word {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 0px 0px 70px;
+}
+.article-content-container {
+    width: 792px;
+    height: 893px;
+    float: right;
+    background-color: #1e0131;
+}
+.article-title {
+    width: 540px;
+    font-size: 60px;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
+    color: #ffffff;
+    margin: 80px auto;
+}
+.article-form-container-sign-up {
+    width: 792px;
+    height: 640px;
+}
+.article-form {
+    list-style: none;
+    width: 600px;
+    height: 240px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    margin: -35px auto;
+}
+
+/*article form placeholder顏色*/
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #a88fb7;
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #a88fb7;
+    opacity: 1;
+}
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #a88fb7;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #a88fb7;
+}
+.placeholder {
+    /* Internet Explorer 8 & 9*/
+    color: #a88fb7;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0px 0px 0px;
+}
+
+/*article form placeholder顏色*/
+
+.article-form li {
+    width: 655px;
+    margin: 0px 0px 20px -8px;
+    font-size: 20px;
+}
+.article-form input[class="real-box"] {
+    width: 254px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    background-color: #4d366f;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #d59f3b;
+    outline: none;
+    margin: 0px 0px 0px 10px;
+    -moz-box-shadow: 1px 1px 15px #0a001e inset;
+    /* For Firefox3.6+ */
+    -webkit-box-shadow: 1px 1px 10px #0a001e inset;
+    /* For Chrome5+, Safari5+ */
+    padding-left: 5px;
+}
+.account-phone-number input[type="text"] {
+    position: absolute;
+    display: inline-block;
+    width: 160px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    margin: 0px 0px 0px 92px;
+}
+.article-form select[class="region-number"] {
+    position: absolute;
+    display: inline-block;
+    width: 92px;
+    height: 38px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    background-color: transparent;
+    color: #a88fb7;
+    border-style: none;
+    outline: none;
+    margin: 0px 0px 0px -5px;
+}
+.account-phone-number span {
+    position: absolute;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+}
+.account-phone-number-container {
+    width: 254px;
+    height: 38px;
+    font-size: 20px;
+    background-color: #4d366f;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #d59f3b;
+    outline: none;
+    margin: 0px 0px 0px 24px;
+    -moz-box-shadow: 1px 1px 15px #0a001e inset;
+    /* For Firefox3.6+ */
+    -webkit-box-shadow: 1px 1px 8px #0a001e inset;
+    /* For Chrome5+, Safari5+ */
+}
+.account-captcha input[type="text"] {
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    background-color: #4d366f;
+    border-style: none;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #d59f3b;
+    outline: none;
+    margin: 0px 0px 0px 10px;
+}
+.captcha {
+    position: absolute;
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    margin: 3px 0px 0px 15px;
+    /*background-image: url(../img/signup&demo/captcha.png);*/
+}
+.check-container-01 {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    background-image: url(../img/signup&demo/none.png);
+    background-repeat: no-repeat;
+    margin: 10px 0px 0px 10px;
+}
+.check-container-02 {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    background-image: url(../img/signup&demo/none.png);
+    background-repeat: no-repeat;
+    margin: 10px 0px 0px 266px;
+}
+.check-container-03 {
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    line-height: 20px;
+    background-image: url(../img/signup&demo/none.png);
+    background-repeat: no-repeat;
+    margin: 10px 0px 0px 10px;
+}
+.check-container-04 {
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    line-height: 20px;
+    background-image: url(../img/signup&demo/none.png);
+    background-repeat: no-repeat;
+    margin: 10px 0px 0px 144px;
+}
+.check-container-05 {
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    line-height: 20px;
+    background-image: url(../img/signup&demo/none.png);
+    background-repeat: no-repeat;
+    margin: 10px 0px 0px 144px;
+}
+.check-container-01 span {
+    font-size: 14px;
+    color: #c3c3c3;
+    font-weight: normal;
+    margin-left: 35px;
+}
+.check-container-02 span {
+    font-size: 14px;
+    color: #c3c3c3;
+    font-weight: normal;
+    margin: 0px 0px 0px 35px;
+}
+.check-container-03 span {
+    font-size: 14px;
+    color: #c3c3c3;
+    font-weight: normal;
+    margin: 0px 0px 0px 35px;
+}
+.checkbox-range-sign-up {
+    width: 400px;
+    height: 180px;
+    margin: 50px auto;
+}
+.check-container-04 span {
+    font-size: 14px;
+    color: #c3c3c3;
+    font-weight: normal;
+    margin: 0px 0px 0px 35px;
+}
+.check-container-05 span {
+    font-size: 14px;
+    color: #c3c3c3;
+    font-weight: normal;
+    margin: 0px 0px 0px 35px;
+}
+.checkbox-container {
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    width: 480px;
+    height: 22px;
+    margin: 5px 0px 0px -10px;
+}
+.checkbox-word {
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    width: 420px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "Adobe 繁黑體 Std";
+    font-weight: bold;
+    color: #c3c3c3;
+    letter-spacing: 1px;
+    margin: 5px 0px 0px 30px;
+}
+.checkbox-container a {
+    display: inline-block;
+    width: 80px;
+    height: 18px;
+    line-height: 20px;
+    color: #ffba02;
+    text-decoration: underline;
+    text-align: center;
+}
+.ckbox {
+    display: inline-block;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+}
+.custom-checkbox {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    display: inline-block;
+    margin: 0px 0px 0px 2px;
+}
+.custom-checkbox> .box {
+    display: inline-block;
+    position: absolute;
+    display: block;
+    width: 21px;
+    height: 21px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/signup&demo/checkbox.png)
+}
+.custom-checkbox> .box> .tick {
+    display: inline-block;
+    position: absolute;
+    margin: 6px 0px 0px 4px;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    display: none;
+}
+.custom-checkbox> input:checked+ .box> .tick {
+    display: block;
+}
+.custom-checkbox> input {
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 1px 0px 0px 1px;
+    opacity: 0;
+    z-index: 1;
+}
+
+/*
+.checkbox {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 18px;
+    margin: 0px 0px 0px 0px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+    background-color: #4d366f;
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d59f3b;
+    -moz-box-shadow: 1px 1px 5px #0a001e inset;                For Firefox3.6+
+	-webkit-box-shadow: 1px 1px 5px #0a001e inset;             For Chrome5+, Safari5+
+}
+
+.checkbox-container input[type="checkbox"]::checked + .checkbox::before {
+    content: "\2713";
+    font-size: 15px;
+}
+*/
+
+/*
+.login-submit input[type="submit"] ,.demo-submit input[type="submit"] {
+    display: inline-block;
+    width: 244px;
+    height: 54px;
+    border-style: none;
+    background-image: url(../img/signup&demo/submit-button-off.png);
+    background-color: #1e0131;
+    font-size: 30px;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
+    color: #4b0072;
+    margin: 70px 0px 0px 90px;
+}
+
+.login-submit input[type="submit"] ,.demo-submit input[type="submit"]:active {
+    display: inline-block;
+    width: 244px;
+    height: 54px;
+    border-style: none;
+    background-image: url(../img/signup&demo/submit-button-down.png);
+    background-color: #1e0131;
+    font-size: 30px;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
+    color: #4b0072;
+    margin: 70px 0px 0px 90px;
+}
+*/
+
+
+
+button[type="button"]{
+    display: inline-block;
+    width: 244px;
+    height: 54px;
+    background-image: url(../img/signup&demo/submit-button-off.png);
+    border-style: none;
+    background-color: #1e0131;
+    font-size: 30px;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
+    color: #4b0072;
+    margin: 70px 0px 0px 90px;
+}
+
+button[type="button"]:active{
+    display: inline-block;
+    width: 244px;
+    height: 54px;
+    background-image: url(../img/signup&demo/submit-button-down.png);
+    border-style: none;
+    background-color: #1e0131;
+    font-size: 30px;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
+    color: #4b0072;
+    margin: 70px 0px 0px 90px;
+}
+
+.ad-sign-up {
+    width: 546px;
+    height: 183px;
+    background-image: url(../img/signup&demo/ad-sign-up.png);
+    background-repeat: no-repeat;
+    margin: 60px 0px 0px -65px;
+}
+
+/*免費註冊頁面結束*/
+
+
+/*免費試玩頁面*/
+
+.article-form-container-demo {
+    width: 520px;
+    height: 248px;
+    margin: 0 auto;
+}
+.checkbox-range-demo {
+    width: 410px;
+    height: 180px;
+    margin: -150px auto;
+}
+.ad-demo {
+    width: 432px;
+    height: 265px;
+    background-image: url(../img/signup&demo/ad-demo.png);
+    background-repeat: no-repeat;
+    margin: 60px 0px 0px 0px;
+}
+
+/*免費試玩頁面結束*/
+
+
+img#vali_Pic, img#vali_Pic2 {
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+    margin: 0 auto;
+    
+}

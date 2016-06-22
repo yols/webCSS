@@ -1,0 +1,860 @@
+/*2016-06-19-1*/
+
+/*公告開始*/
+.note{
+/*
+    width: 100%;
+    height: 30px;
+    background: url(../img/index/notice-bg.png) repeat-x 0 0;
+*/
+    z-index: 5;
+    position: absolute;
+}
+
+/*
+.note_inside{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.note span{
+    width: 93px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: right;
+    font-weight: bold;
+    color: #d4d4d4;
+    float: left;
+    background-image: url(../img/index/icon-notice.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+*/
+
+/*.marquee{
+  width: 903px; /* the plugin works for responsive layouts so width is not necessary */
+/*
+  height: 30px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 30px;
+  color: #d4d4d4;    
+  margin: 0px 95px;
+}
+*/
+/*公告結束*/
+
+/*BANNER區塊 開始*/
+nav{
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.banner img{
+/*    width: 100%;*/
+    height: 400px;
+    margin: 0 auto;
+    background-size:contain;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.banner item a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fcc204;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #710aa6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -26px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+/*BANNER區塊 結束*/
+
+
+/*內容 開始*/
+article {
+    width: 100%;
+    height: 620px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+section{
+    width: 1000px;
+    height: 620px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*收藏遊戲-未登入 開始*/
+.favorite_game{
+    width: 1000px;
+    height: 179px;
+    margin: 0 auto;
+    background: url(../img/index/favorite_game/favorite_game.jpg) no-repeat 0 0;
+}
+
+.favorite_but01{
+    width: 145px;
+    height: 34px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;/*文字置中*/
+    float: left;
+    background: url(../img/index/favorite_game/favorite_game_01.png) no-repeat 0 0;
+    margin: 0 10px;
+}
+
+.favorite_word{
+    width: 1000px;
+    height: 60px;
+    margin: 31px 24px;
+    float: left;
+}
+
+.round01{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url(../img/index/favorite_game/favorite_game_round01.png) no-repeat 0 0;
+    margin: 0 auto;
+}
+
+.round02{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url(../img/index/favorite_game/favorite_game_round02.png) no-repeat 0 0;
+    margin: 0 auto;
+}
+
+.round03{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url(../img/index/favorite_game/favorite_game_round03.png) no-repeat 0 0;
+    margin: 0 auto;
+}
+
+.word01 {
+    width: 144px;
+    height: 24px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    float: left;
+    margin: 16px 7px;
+}
+
+.word02 {
+    width: 144px;
+    height: 24px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    float: left;
+    margin: 16px 7px;
+}
+
+.word03 {
+    width: 144px;
+    height: 24px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    float: left;
+    margin: 16px 7px;
+}
+.arrow_img{
+    width:12px;
+    height: 23px;
+    float: left;
+    background: url(../img/index/favorite_game/favorite_arrow.png) no-repeat 0 0;
+    margin: 20px 14px;
+}
+
+.favorite_but{
+   height: 45px;
+   margin: 6px 8px;
+   float: left;
+}
+
+.favorite li{
+    width:94px;
+    height: 45px;
+    margin: 0 2px;
+    float: left;
+}
+
+.free_but1{
+    width: 100%;
+    height: 100%;
+    display: block;/*顯示區塊*/
+    color: #4b0072;
+    font-size: 20px;
+    font-weight: bold;/*文字粗體*/
+    line-height: 45px;/*文字內字距*/
+    text-align: center;/*文字置中*/
+    background: url(../img/index/button/try_game02.png) no-repeat 0 0;
+    float: left;
+}
+
+.free_but1:hover{
+    color: #fff;
+    background: url(../img/index/button/try_game03.png) no-repeat 0 0;
+}
+
+.free_but2{
+    width: 100%;
+    height: 100%;
+    display: block;/*顯示區塊*/
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;/*文字粗體*/
+    line-height: 45px;/*文字內字距*/
+    text-align: center;/*文字置中*/
+    background: url(../img/index/button/try_game01.png) no-repeat 0 0;
+    float: left;
+}
+
+.free_but2:hover{
+    background: url(../img/index/button/try_game04.png) no-repeat 0 0;
+}
+
+
+/*收藏遊戲-未登入 結束*/
+
+/*收藏遊戲-登入 開始*/
+.favorite_content{
+    width: 660px;
+    height: 34px;
+    margin: 0 10px;
+    padding: 0;
+    float: left;
+}
+
+.favorite_content li{
+    width: 145px;
+    height: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;/*文字置中*/
+    margin: 0 10px;
+    float: left;
+}
+
+.favorite_but02{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: block;
+    float: left;
+    background: url(../img/index/favorite_game/favorite_game_02.png) no-repeat 0 0;
+}
+
+.favorite_but02:hover{
+    color: #4b0072;
+    background: url(../img/index/favorite_game/favorite_game_03.png) no-repeat 0 0;
+}
+
+/*收尋*/
+.search_box{
+    width: 125px;
+    height: 24px;
+    float: left;
+    margin: -24px 855px;
+    position: relative;
+}
+
+.search{
+    width: 121px;
+    height: 24px;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    float: left;
+    background-color: #360350;
+    border: 1px solid #1c022a;
+}
+
+.search_but {
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    right: 0px;
+    display: block;
+    float: left;
+    background: url(../img/index/favorite_game/search.png) no-repeat 0 0;
+}
+
+.favorite_tabs{
+    width: 980px;
+    height: 140px;
+    color: #fff;
+    margin: 0 auto;
+    float: left;
+}
+
+/*收藏遊戲選單 開始*/
+.favorite_tabs01{
+    width: 980px;
+    height: 140px;
+    margin: 0 20px;
+    position: relative;
+    float: left;
+}
+
+.games_tabs_box{
+    width: 980px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.games_tabs_box li{
+    width: 168px;
+    height: 108px;
+    margin: 20px 10px;
+    position: relative;
+    float: left;
+}
+
+/*愛心按鈕*/
+.game_love {
+    width: 17px;
+    height: 14px;
+    display: block;
+    z-index: 3;
+    top: 88px;
+    right: 8px;
+    float: right;
+    position: absolute;
+    background: url(../img/index/favorite_game/love_icon01.png) no-repeat 0 0;
+}
+
+/*點愛心會收藏最愛*/
+.game_love:active{
+     background: url(../img/index/favorite_game/love_icon02.png) no-repeat 0 0;
+}
+
+/*開始試玩*/
+.game_play{
+    width: 168px;
+    height: 108px;
+    font-size: 20px;
+    color:rgba(0,0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    line-height: 108px;
+    display: block;
+    position: absolute;
+}
+
+.game_play:hover{
+    color: #d804f8;
+    background: url(../img/index/favorite_game/game_000.png) no-repeat 0 0;
+}
+
+.game_play:active{
+    color: #ffcc00;
+}
+
+/*遊戲圖*/
+.game_option_img01{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_01.png) no-repeat 0 0;
+}
+
+.game_option_img02{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_02.png) no-repeat 0 0;
+}
+
+.game_option_img03{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_03.png) no-repeat 0 0;
+}
+
+.game_option_img04{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_04.png) no-repeat 0 0;
+}
+
+.game_option_img05{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_05.png) no-repeat 0 0;
+}
+
+.game_option_img06{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_06.png) no-repeat 0 0;
+}
+
+.game_option_img07{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_07.png) no-repeat 0 0;
+}
+
+.game_option_img08{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_08.png) no-repeat 0 0;
+}
+
+.game_option_img09{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_09.png) no-repeat 0 0;
+}
+
+.game_option_img10{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../img/index/favorite_game/game_10.png) no-repeat 0 0;
+}
+/*收藏遊戲選單 結束*/
+
+/*左右箭頭按鈕樣式*/
+.next_btn{ /*<左*/
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    top: 50%;
+    left: -17px;
+    z-index: 3;
+    background: url(../img/index/favorite_game/next_btn01.png) no-repeat;
+}
+
+.next_btn:hover{
+    background:url(../img/index/favorite_game/next_btn02.png) no-repeat;
+}
+
+.prev_btn{ /*>右*/
+    width: 15px;
+    height: 23px;
+    right: 24px;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    background: url(../img/index/favorite_game/prev_btn01.png) no-repeat;
+}
+
+.prev_btn:hover{
+    background: url(../img/index/favorite_game/prev_btn02.png) no-repeat;
+}
+/*收藏遊戲-登入 結束*/
+
+/*各家遊戲內容 開始*/
+.game_box{
+    width: 1000px;
+    height: 424px;
+    margin: 17px auto;
+/*    float: left;*/
+}
+
+/*真人娱乐*/
+.people_box{
+    width: 328px;
+    height: 424px;
+    float: left;
+}
+
+.people_word{
+    width: 328px;
+    height: 40px;
+    font-weight: bold;/*文字粗體*/
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffcc00;
+    text-indent:15px;/*這一段第一行的最前面會留 15px */
+    background-image: url(../img/index/notice-bg01.png);
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    float: left;
+}
+
+.people_img1{
+    width: 328px;
+    height: 344px;
+    margin: 0 auto;
+    background: url(../img/index/people_game/people_img01.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.people_img2{
+    width: 328px;
+    height: 344px;
+    margin: 0 auto;
+    background: url(../img/index/people_game/people_img02.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.people_img3{
+    width: 328px;
+    height: 344px;
+    margin: 0 auto;
+    background: url(../img/index/people_game/people_img03.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.people_img4{
+    width: 328px;
+    height: 344px;
+    margin: 0 auto;
+    background: url(../img/index/people_game/people_img04.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.people_content{
+    width: 328px;
+    height: 40px;
+    margin: 0 auto;
+    float: left;
+}
+
+.people_content li{
+    width: 82px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;/*文字粗體*/
+}
+
+.people_but{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    float: left;
+    background: url(../img/index/button/people_but01.png) no-repeat 0 0;
+}
+
+.people_but:hover{
+    color: #4b0072;
+    background: url(../img/index/button/people_but02.png) no-repeat 0 0;
+}
+
+/*电子游艺*/
+.slotgame_box{
+    width: 320px;
+    height: 254px;
+    margin: 0 10px;
+    float: left;
+}
+
+.slotgame_word{
+    width: 320px;
+    height: 40px;
+    font-weight: bold;/*文字粗體*/
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffcc00;
+    text-indent:15px;/*這一段第一行的最前面會留 15px */
+    background-image: url(../img/index/notice-bg01.png);
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    float: left;
+}
+
+.slotgame_img1{
+    width: 320px;
+    height: 174px;
+    margin: 0 auto;
+    background: url(../img/index/slot_game/slotgame_img01.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.slotgame_img2{
+    width: 320px;
+    height: 174px;
+    margin: 0 auto;
+    background: url(../img/index/slot_game/slotgame_img03.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.slotgame_img3{
+    width: 320px;
+    height: 174px;
+    margin: 0 auto;
+    background: url(../img/index/slot_game/slotgame_img02.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.slotgame_img4{
+    width: 320px;
+    height: 174px;
+    margin: 0 auto;
+    background: url(../img/index/slot_game/slotgame_img04.jpg) no-repeat 0 0;
+    float: left;
+}
+.slotgame_content{
+    width: 320px;
+    height: 40px;
+    margin: 0 auto;
+    float: left;
+}
+
+.slotgame_content li{
+    width: 80px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;/*文字粗體*/
+}
+
+.slotgame_but{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    float: left;
+    background: url(../img/index/button/slotgame_but01.png) no-repeat 0 0;
+}
+
+.slotgame_but:hover{
+    color: #4b0072;
+    background: url(../img/index/button/slotgame_but02.png) no-repeat 0 0;
+}
+
+/*小廣告*/
+.banner_smallbox{
+    width: 320px;
+    height: 160px;
+    float: left;
+    margin: 8px 10px;
+}
+
+.banner_smallbox item a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*棋牌游戏*/
+.chess_box{
+    width: 330px;
+    height: 214px;
+    margin: -254px auto;
+    float: right;
+}
+
+.chess_word{
+    width: 330px;
+    height: 40px;
+    font-weight: bold;/*文字粗體*/
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffcc00;
+    text-indent:15px;/*這一段第一行的最前面會留 15px */
+    background-image: url(../img/index/notice-bg01.png);
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    float: left;
+}
+
+.chess_img1{
+    width: 330px;
+    height: 133px;
+    margin: 0 auto;
+    background: url(../img/index/chess_game/chess_img01.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.chess_img2{
+    width: 330px;
+    height: 133px;
+    margin: 0 auto;
+    background: url(../img/index/chess_game/chess_img02.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.chess_content{
+    width: 330px;
+    height: 40px;
+    margin: 0 auto;
+    float: left;
+}
+
+.chess_content li{
+    width: 165px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;/*文字粗體*/
+}
+
+.chess_but{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    float: left;
+    background: url(../img/index/button/chess_but01.png) no-repeat 0 0;
+}
+
+.chess_but:hover{
+    color: #4b0072;
+    background: url(../img/index/button/chess_but02.png) no-repeat 0 0;
+}
+
+/*免费试玩*/
+.freegame_smallbox{
+    width: 330px;
+    height: 200px;
+    margin-top: -32px;
+    float: right;
+}
+
+.freegame_word{
+    width: 330px;
+    height: 40px;
+    font-weight: bold;/*文字粗體*/
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffcc00;
+    text-indent:15px;/*這一段第一行的最前面會留 15px */
+    background-image: url(../img/index/notice-bg01.png);
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    float: left;
+}
+
+.try_game01{
+    width: 94px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;/*文字粗體*/
+    position: relative;
+}
+
+.try_game01 a{
+    width: 100%;
+    height: 100%;
+    color: #4b0072;
+    display: block;
+    top: 146px;
+    left: 226px;
+    position: absolute;
+    background: url(../img/index/button/try_game02.png) no-repeat 0 0;
+}
+
+.try_game01 a:hover{
+    color: #fff;
+    background: url(../img/index/button/try_game04.png) no-repeat 0 0;
+}
+
+.freegame_img{
+    width: 330px;
+    height: 160px;
+    margin: -5px auto;
+    background: url(../img/index/free_game/freegame_img01.jpg) no-repeat 0 0;
+    float: left;
+}
+
+
+/*登入魔術風采*/
+.history_smallbox{
+    width: 330px;
+    height: 200px;
+    background-image: url(../img/index/notice-bg01.png);
+    background-repeat: repeat-x;
+    margin-top:-32px;
+    float: right;
+}
+
+.history_word{
+    width: 330px;
+    height: 40px;
+    font-weight: bold;/*文字粗體*/
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffcc00;
+    text-indent:15px;/*這一段第一行的最前面會留 15px */
+    background-image: url(../img/index/notice-bg01.png);
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    float: left;
+
+}
+
+.history_img{
+    width: 330px;
+    height: 160px;
+    margin: 0 auto;
+    background: url(../img/index/free_game/history_img01.jpg) no-repeat 0 0;
+    float: left;
+}
+/*各家遊戲內容 結束*/
+
+/*
+footer{
+    margin: 30px auto;
+}
+*/
+
+

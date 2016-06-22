@@ -1,0 +1,24 @@
+ .CustomerService {
+   background: #fff;
+   right: 0px;
+   position: fixed;
+   padding: 5px;
+   z-index: 999;
+   top: 0%;
+   width: 220px;
+   font-size: 12px;
+   -webkit-writing-mode: vertical-lr;
+     writing-mode:tb-lr;
+}
+.CustomerService2 {
+  background: #fff;
+  right: 0px;
+  position: relative;
+  padding: 5px;
+  top: 0%;
+  width: 220px;
+  font-size: 12px;
+  background-color:#ccaaf3;
+  -webkit-writing-mode: vertical-lr;
+    writing-mode:tb-lr;
+}

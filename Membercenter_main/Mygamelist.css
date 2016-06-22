@@ -1,0 +1,613 @@
+/*我的收藏頁面*/
+/*分頁選單BAR*/
+.Member_gamelist{
+    width: 792px;
+    height: 100%;
+    text-align: center;
+/*    float: right;*/
+    display: inline-block;
+}
+
+.Member_gamelist >.SubMenu{
+    width: 745px;
+    height: 70px;
+    float:left;
+    background-color: #1e0131;
+    padding-left:47px;
+}
+
+.SubMenu ul li{
+    width: 148px;
+    height: 45px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px; /*行高*/
+    color: #fff;
+    display: block;
+    background-image: url(../../img/Membercenter_main/Submenu_01.png) ;
+    background-repeat: no-repeat;
+    margin:0 12px;
+}
+
+.SubMenu_Label{
+    color: #fff;
+    letter-spacing: 2px;
+    display: block;
+    float: left;
+}
+
+.SubMenu_Page{
+    width: 148px;
+    height: 45px;
+    background-image: url(../../img/Membercenter_main/Submenu_02.png) ;
+    background-repeat: no-repeat;
+    letter-spacing: 2px;
+    color: #fff;
+    display: block;
+}
+
+.SubMenu_Page:hover{
+    background-image: url(../../img/Membercenter_main/Submenu_03.png) ;
+    background-repeat: no-repeat;
+    color: #4b0072;
+    font-weight: bold;
+}
+
+/*收藏遊戲收合*/
+.CarouselGameList{
+    width: 792px;
+    height: 200px;
+    float:left;
+    background-color: #1e0131;
+    position: relative;
+}
+
+/*左右箭頭*/
+.Arrow_Left a{
+    width: 36px;
+    height: 150px;
+    float: left;
+    background: url(../../img/Membercenter_main/Mygamelist_arrow01.png);
+    background-position:   center center;
+    background-repeat: no-repeat;
+}
+
+.Arrow_Left a:hover{
+    width: 36px;
+    height: 150px;
+    float: left;
+    background: url(../../img/Membercenter_main/Mygamelist_arrow02.png);
+    background-position:   center center;
+    background-repeat: no-repeat;
+}
+.Arrow_Right a{
+    width: 36px;
+    height: 150px;
+    float: right;
+    background: url(../../img/Membercenter_main/Mygamelist_arrow03.png);
+    background-position:   center center;
+    background-repeat: no-repeat;
+}
+
+.Arrow_Right a:hover{
+    width: 36px;
+    height: 150px;
+    float: right;
+    background: url(../../img/Membercenter_main/Mygamelist_arrow04.png);
+    background-position:   center center;
+    background-repeat: no-repeat;
+}
+
+/*我的收藏遊戲清單*/
+.GameListFrame{
+    width: 180px;
+    height: 180px;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    position: relative;
+}
+
+.GameListFrame a{
+    float: left;
+    margin:12px 4px 3px 4px;
+}
+
+.GameListPic{
+    width: 168px;
+    height: 108px;
+    font-size: 20px;
+    color:rgba(0,0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    line-height: 108px;
+    display: block;
+    position: absolute;
+}
+
+.GameListPic:hover{
+    color: #d804f8;
+    background: url(../../img/Membercenter_main/Mygamelist_hover.png);
+    background-repeat:  no-repeat ;
+    background-position: 0 0;
+}
+
+.GameListPic_More{
+    width: 168px;
+    height: 108px;
+    font-size: 20px;
+    color:#ffce41;
+    text-align: center;
+    font-weight: bold;
+    line-height: 108px;
+    display: block;
+    position: absolute;
+    text-decoration: underline;
+}
+
+.GameListPic_More:hover{
+    color: #d804f8;
+    background: url(../../img/Membercenter_main/Mygamelist_hover.png);
+    background-repeat:  no-repeat ;
+    background-position: 0 0;
+}
+/*各遊戲圖片設定*/
+.GameListPic_01{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_01.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_02{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_02.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_03{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_03.png);
+    background-repeat:  no-repeat ;
+}
+
+
+.GameListPic_04{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_04.png);
+    background-repeat:  no-repeat ;
+    background-position:  center  center;
+}
+
+.GameListPic_MoreCollect{
+    width: 168px;
+    height: 108px;
+    float: left;
+    background: url(../../img/Membercenter_main/Mygamelist_00.png);
+    background-repeat:  no-repeat ;
+    background-position:  center  center;
+}
+
+/*遊戲名稱*/
+.GameListName{
+/*    position: absolute;*/
+    width: 148px;
+    height: 20px;
+    float: left;
+    margin:0 4px ;
+    top: 135px;
+    font-size: 16px;
+    line-height: 20px; /*行高*/
+    color: #fff;
+    text-align: center;
+    word-wrap:break-word;/*自動斷行，長英文字不切斷*/
+    white-space:pre-wrap;/*保留原始空白與換行*/
+}
+
+.AddFavourite{
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: right;
+    background: url(../../img/Membercenter_main/Mygamelist_heart02.png);
+    background-repeat:  no-repeat ;
+    top: 135px;
+    right: 6px;
+    position: absolute;
+}
+
+.AddFavourite:hover{
+    width: 20px;
+    height: 20px;
+    float: right;
+    display: block;
+    background: url(../../img/Membercenter_main/Mygamelist_heart01.png);
+    background-repeat:  no-repeat ;
+    top: 135px;
+}
+
+/*收藏遊戲展開*/
+.AllMyFavorite{
+    width: 792px;
+    height:850px;
+    float:left;
+    background-color: #1e0131;
+    position: relative;
+}
+
+.AllMyFavorite_inside{
+    width: 720px;
+    height: 750px;
+    float: left;
+    margin-left: 36px;
+}
+
+/*收合遊戲選單鍵*/
+a > .Arrow_Top {
+    width: 40px;
+    height: 40px;
+    float: right;
+    display: block;
+    background: url(../../img/Membercenter_main/Mygamelist_arrow05.png);
+    background-repeat: no-repeat ;
+    right: 30px;
+    position: relative;
+}
+
+.Arrow_Top:hover{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background: url(../../img/Membercenter_main/Mygamelist_arrow06.png);
+    background-repeat:  no-repeat ;
+    right: 30px;
+}
+
+/*各遊戲圖片設定*/
+.GameListPic_05{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_05.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_06{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_06.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_07{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_07.png);
+    background-repeat:  no-repeat ;
+}
+
+
+.GameListPic_08{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_08.png);
+    background-repeat:  no-repeat ;
+    background-position:  center  center;
+}
+
+.GameListPic_09{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_09.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_10{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_10.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_11{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_01.png);
+    background-repeat:  no-repeat ;
+}
+
+
+.GameListPic_12{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_02.png);
+    background-repeat:  no-repeat ;
+    background-position:  center  center;
+}
+
+
+.GameListPic_13{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_03.png);
+    background-repeat:  no-repeat ;
+    background-position:  center  center;
+}
+
+.GameListPic_14{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_04.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_15{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_05.png);
+    background-repeat:  no-repeat ;
+}
+
+.GameListPic_16{
+    width: 168px;
+    height: 108px;
+    background: url(../../img/Membercenter_main/Mygamelist_06.png);
+    background-repeat:  no-repeat ;
+}
+
+/*帳戶安全指數*/
+.PersonalInformation{
+    width: 792px;
+    height:250px;
+    float:left;
+    background-color: #1e0131;
+    padding-top: 40px;
+    position: relative;
+    display: block;
+}
+
+.Accountsecurity{
+    width: 386px;
+    height: 182px;
+    display: block;
+    float: left;
+    margin-left: 16px;
+    background: url(../../img/Membercenter_main/Accountsecurity_01.png);
+    z-index:1;
+}
+
+.Percentage{
+    width: 130px;
+    height: 182px;
+    position: absolute;
+    color: #63f5ca;
+    font-weight: bold;
+    z-index:2;
+    line-height: 327px;
+    font-size: 16px;
+    display: block;
+    float: left;
+    margin-left: 7px;
+}
+
+.MemberInfoFieldAddress{
+    text-align: left;
+    position: relative;
+    top:-120px;
+    left: 158px;
+    width: 270px;
+    height: 182px;
+}
+
+/*登入帳號*/
+.LoginAccount {
+    width: 91px;
+    height: 30px;
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+.LoginAccountField {
+    width: 90px;
+    height: 30px;
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+
+.MailPic{
+  position: absolute;
+  top:-20px;
+  left: 160px;
+    width: 30px;
+    height: 30px;
+    background: url(../../img/Membercenter_main/Accountsecurity_03.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+.MailPicGET{
+    width: 30px;
+    height: 30px;
+    background: url(../../img/Membercenter_main/Accountsecurity_02.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-right: 18px;
+    margin-top: -4px;
+}
+/*修改密碼*/
+.AccountPWt {
+    width: 220px;
+    height: 30px;
+    display: block;
+    float: left;
+    line-height: 30px;
+}
+
+.AccountPWt a{
+    color:  #ffcc00;
+    text-decoration: underline;
+}
+/*手機*/
+.Phone {
+    width: 55px;
+    height: 30px;
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+.PhoneField {
+    width: 150px;
+    height: 30px;
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+
+.WithdrawalsPW {
+    width: 90px;
+    height: 30px;
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+.UnsetWithdrawalsPW {
+    width: 90px;
+    height: 30px;
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+
+
+
+.UnsetPW{
+    position: absolute;
+    top:95px;
+    left: 80px;
+    width: 60px;
+    height: 30px;
+    display: block;
+    float: left;
+    z-index: 10;
+}
+
+.UnsetPW a{
+    color: red;
+    text-decoration: underline;
+}
+
+.SetPW{
+    position: absolute;
+    top:95px;
+    left: 80px;
+    width: 60px;
+    height: 30px;
+    display: block;
+    float: left;
+}
+
+
+/*快捷鍵按鈕*/
+.PersonalLink{
+    width: 360px;
+    height:182px;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.MemberDeposits{
+    width: 80px;
+    height: 182px;
+    margin-left: 10px;
+    float: left;
+    color: #fff;
+    line-height: 275px;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_01.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.MemberDeposits:hover{
+    width: 80px;
+    height: 182px;
+    color: #ffce41;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_02.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+
+
+.MemberWithdrawal{
+    width: 80px;
+    height: 182px;
+    margin-left: 10px;
+    float: left;
+    color: #fff;
+    line-height: 275px;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_03.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.MemberWithdrawal:hover{
+    width: 80px;
+    height: 182px;
+    color: #ffce41;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_04.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.AccountTransfer{
+    width: 80px;
+    height: 182px;
+    margin-left: 10px;
+    float: left;
+    color: #fff;
+    line-height: 275px;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_05.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.AccountTransfer:hover{
+    width: 80px;
+    height: 182px;
+    color: #ffce41;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_06.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.TransactionRecord{
+    width: 80px;
+    height: 182px;
+    margin-left: 10px;
+    float: left;
+    color: #fff;
+    line-height: 275px;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_07.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.TransactionRecord:hover{
+    width: 80px;
+    height: 182px;
+    color: #ffce41;
+    background: url(../../img/Membercenter_main/Personalinformation_menu_08.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}

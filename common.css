@@ -1,0 +1,1000 @@
+/*2016-06-17-1*/
+body {
+    background-color: #1e0131;
+    overflow-x: hidden;/*關閉拉霸*/
+    font-family: "微軟正黑體";
+    font-weight: bold;/*文字粗體*/
+    margin: 0;
+    padding: 0;/*填充空間*/
+}
+
+/*客服開始*/
+aside{
+    width: 230px;
+    height: 491px;
+    right: 0;/*縮起來時 -182px*/
+    top: 85px;
+    background-image:url(../img/index/service.png);
+    background-repeat: no-repeat;
+    position: fixed;/*位置定位:固定與滾輪滑動*/
+    z-index: 20;/*圖層元素:往上10層*/
+    display: block;
+}
+
+.service_box{
+    width: 39px;
+    height: 294px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #32155d;
+    text-align: center;
+    padding-top: 245px;
+    float: left;
+}
+
+.s_arrow{
+    width: 12px;
+    height: 23px;
+    margin: 70px 0 0 15px;
+}
+
+.s_arrow a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/index/service_right.png) no-repeat 0 0;
+}
+
+.s_arrow a:hover{
+    background: url(../img/index/service_left.png) no-repeat 0 0;
+}
+
+.service_online{
+    width: 168px;
+    height: 285px;
+    float: left;
+    color: #ffffff;
+    margin-top: 198px;
+    text-align: center; /*置中*/
+}
+
+.service{
+    width: 168px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.service a{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.service a:hover{
+    color: #fcc204;
+}
+/*幫助中心*/
+.s_help{
+    width: 100%;
+    height:100%;
+    display: block;
+    background: url(../img/index/s_help01.png) no-repeat 17px 13px;
+}
+
+.s_help:hover{
+    background: url(../img/index/s_help02.png) no-repeat 17px 13px;
+
+}
+
+/*在線客服*/
+.s_online{
+    width: 100%;
+    height:100%;
+    display: block;
+    background: url(../img/index/s_wechat01.png) no-repeat 17px 13px;
+}
+
+.s_online:hover{
+   background: url(../img/index/s_wechat02.png) no-repeat 17px 13px;
+}
+
+/*QQ*/
+.s_qq{
+    width: 100%;
+    height:100%;
+    display: block;
+    background: url(../img/index/s_QQ01.png) no-repeat 6px 13px;
+}
+
+.s_qq:hover{
+   background: url(../img/index/s_QQ02.png) no-repeat 6px 13px;
+}
+
+/*微信*/
+.s_wechat{
+    width: 100%;
+    height: 137px;
+    display: block;
+    background: url(../img/index/s_qrcode.png) no-repeat 40px 43px;
+}
+
+.s_wechat:hover{
+    color: #fcc204;
+}
+/*客服結束*/
+
+/*往上按鈕*/
+.totop{
+    width: 51px;
+    height: 78px;
+    right: 30px;
+    bottom: 10px;
+    background: url(../img/index/top.png) no-repeat 0 0;
+    position: fixed;/*位置定位:固定與滾輪滑動*/
+    z-index: 10;/*圖層元素:往上10層*/
+    display: block;
+}
+
+.totop a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*上方header 開始*/
+header {
+    background: url(../img/index/header.jpg) no-repeat;
+    width: 100%;
+    height: 153px;
+    margin: 0 auto;
+    display: block;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+.header_inside{
+    width: 1000px;
+    height: 153px;
+    margin: 0 auto;/*置中*/
+}
+
+/*時間設定*/
+.topbar-hd{
+    height: 18px;
+/*    padding-top: 6px;*/
+    float: left;
+}
+
+.time_show{
+    color: #8c642e;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*右上按鈕*/
+.top_button{
+    width: 240px;
+    height: 30px;
+    float: right;
+}
+
+.icon_button{
+    width: 93px;
+    height: 19px;
+    padding-top: 8px;
+}
+
+.icon_button li{
+    width: 21px;
+    height: 19px;
+    margin-right: 10px;
+    float: left;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/index/button/home01.png) no-repeat 0 0;
+}
+
+.home:hover{
+    background: url(../img/index/button/home02.png) no-repeat 0 0;
+}
+
+.star{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/index/button/star01.png) no-repeat 0 0;
+}
+
+.star:hover{
+    background: url(../img/index/button/star02.png) no-repeat 0 0;
+}
+
+.help{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/index/button/help01.png) no-repeat 0 0;
+}
+
+.help:hover{
+    background: url(../img/index/button/help02.png) no-repeat 0 0;
+}
+
+/*无法登入*/
+.no_signin {
+    width: 56px;
+    height: 15px;
+    margin: -18px 88px 0 0;
+    float: right;
+}
+
+.no_signin a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 14px;
+    line-height: 15px;
+    color: #684515;
+    font-weight: bold;
+    border-bottom: 1px solid #684515;
+
+}
+
+.no_signin a:hover{
+    color: #8c642e;
+    border-bottom: 1px solid #8c642e;
+}
+
+/*语言*/
+.select_1anguage{
+    width: 75px;
+    height: 20px;
+    color: #684515;/*輸入的文字顏色*/
+    font-size: 12px;/*輸入的文字尺寸*/
+    line-height: 20px;
+    background-color: #270027;/*框內顏色*/
+    border: 1px solid #684515;/*框 1px 實體線 顏色*/
+    border-radius: 3px;/*格子圓弧邊*/
+    margin-top: -20px;
+    float: right;
+}
+
+
+/*登入資訊 開始*/
+/*LOGO*/
+.topbar_mid{
+    width: 1000px;
+    height: 84px;
+    margin: 0 auto;
+    float: left;
+}
+
+.logo{
+    width: 229px;
+    height: 88px;
+    background: url(../img/index/logo.png) no-repeat 0 0;
+    margin-top: -1px;
+    float: left;
+}
+
+.logo a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/index/logo.png) no-repeat 0 0;
+
+}
+
+.slogan{
+    width: 138px;
+    height: 84px;
+    background: url(../img/index/slogan.png) no-repeat 0 0;
+    float: left;
+}
+
+/*login 登入1 開始*//*以下設註冊框內字句樣式和不同瀏覽器設定*/
+.login_box input::-webkit-input-placeholder {/* WebKit, Blink, Edge */
+  color: #d59f3b;
+}
+.login_box input:-moz-placeholder {/* Mozilla Firefox 4 to 18 */
+  color: #d59f3b;
+}
+.login_box input::-moz-placeholder {/* Mozilla Firefox 19+ */
+  color: #d59f3b;
+}
+.login_box input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #d59f3b;
+}
+input, textarea { color: #d59f3b; }
+.placeholder{ /* Internet Explorer 8 & 9*/
+  color: #d59f3b;
+}
+/*article form placeholder顏色*/
+/*以下設註冊框內字句樣式和不同瀏覽器設定 結束*/
+
+.login_box{
+    width: 600px;
+    height: 30px;
+    padding-top: 30px;
+    float: right;
+}
+
+/*帳號*/
+.login_account{
+    width: 135px;
+    height: 30px;
+    border: 1px solid #d59f3b;
+    border-radius: 5px;/*框圓角5px*/
+    background-color: #270027;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    outline:none;
+    float: left;
+    padding-left: 5px;
+}
+
+/*密碼*/
+.login_password{
+    width: 135px;
+    height: 30px;
+    border: 1px solid #d59f3b;
+    border-radius: 5px;
+    background-color: #270027;
+    outline:none;
+    margin-left: 3px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    float: left;
+    padding-left: 5px;
+}
+
+/*驗證碼*/
+.text-code{
+    position: relative;/*設定相對定位*/
+    float:left;
+}
+
+.login_code{
+    width: 110px;
+    height: 30px;
+    border: 1px solid #d59f3b;
+    border-radius: 5px;
+    background-color: #270027;
+    outline:none;
+    margin-left: 3px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    float: left;
+    padding-left: 5px;
+}
+
+.code_box{
+    width: 46px;
+    height: 22px;
+    left: 65px;
+    bottom: 5px;
+    position: absolute;/*設定絕對定位*/
+}
+
+.code {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.code img{
+    width: 46px;
+    height: 22px;
+}
+
+/*登入註冊按鈕*/
+
+.but {
+/*    width: 195px;*/
+    height: 30px;
+    margin-top: 2px;
+
+}
+
+.but li {
+    width: 62px;
+    height: 30px;
+    color: #000;
+    text-align: center;/*在圖中間*/
+    float: left;
+    margin-left: 2px;
+/*    margin: 0 2px;*/
+/*    white-space: nowrap;*/
+}
+
+.but-reg {
+    width: 100%;
+    height: 100%;
+    display: block;/*顯示區塊*/
+    color: #4b0072;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "微軟正黑體";
+    font-weight: bold;/*粗體*/
+    border: none;
+    background: url(../img/index/button/login_01.png) no-repeat 0 0;
+    float: left;
+}
+
+.but-reg:hover{
+    border: none;
+    color: #ffffff;
+    background: url(../img/index/button/login_02.png) no-repeat 0 0;
+
+}
+
+.try_game{
+    width: 64px;
+    height: 100%;
+    display: block;/*顯示區塊*/
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "微軟正黑體";
+    font-weight: bold;/*粗體*/
+    line-height: 30px;
+    background: url(../img/index/button/try01.png) no-repeat 0 0;
+    float: left;
+}
+
+.try_game:hover{
+    background: url(../img/index/button/try02.png) no-repeat 0 0;
+}
+/*login 登入1 結束*/
+
+/*loading-2 會員已登入中 開始*/
+.loading{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/index/ajax/loading.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 33px;
+}
+/*loading-2 會員已登入中 開始結束*/
+
+/*logout-3 會員已登入 開始*/
+/*帳號*/
+.logout_box{
+    width: 600px;
+    height: 30px;
+    padding-top: 30px;
+    float: right;
+}
+
+.username{
+    width:165px;
+    height: 30px;
+    float: left;
+}
+
+.person_img{
+    width: 15px;
+    height: 30px;
+    background: url(../img/index/person.png) no-repeat 0 7px;
+    float: left;
+}
+
+.username p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 5px;
+    float: left;
+}
+
+/*站內訊息*/
+.email_img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: url(../img/index/email.png) no-repeat 0 10px;
+    float: left;
+}
+
+.email_img a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.email_new{
+    width: 10px;
+    height: 10px;
+    top: 6px;
+    left: 15px;
+    position: absolute;
+    z-index: 2;
+    background: url(../img/index/new02.png) no-repeat 0px 0px;
+}
+
+/*总额度*/
+.total_cash{
+    width: 190px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 26px;
+    color: #fff;
+    float: left;
+    background-color: #360350;
+    border: 1px solid #1c022a;
+    border-radius: 5px;
+    margin: 3px 2px;
+}
+
+.total_cash span{
+    padding-left: 4px;
+}
+
+.hide{
+    width: 35px;
+    height: 20px;
+    margin: -22px 152px;
+}
+
+.hide a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: url(../img/index/button/hide.png) no-repeat 0px 0px;
+}
+
+.hide a:hover{
+     color: #150022;
+}
+
+
+/*存提款/會員中心/登出 按鈕*/
+.pushbutton{
+    width:209px;
+    height: 30px;
+    float: left;
+}
+
+.pushbutton ul{
+    width: 100%;
+    height: 100%;
+    margin: 5px 3px;
+    float: left;
+}
+
+/*存提款*/
+.deposit{
+    width: 48px;
+    height: 26px;
+    color: #4b0072;
+    font-size: 14px;
+    font-weight: bold;/*粗體*/
+    text-align: center;
+    line-height: 26px;
+    background: url(../img/index/button/deposit01.png) no-repeat 0 0;
+    display: block;
+    float: left;
+}
+
+.deposit:hover{
+    color: #fff;
+    background: url(../img/index/button/deposit02.png) no-repeat 0 0;
+}
+
+/*會員中心*/
+.membercentre{
+    width: 64px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;/*粗體*/
+    text-align: center;
+    line-height: 30px;
+    background: url(../img/index/button/try01.png) no-repeat 0 0;
+    display: block;
+    float: left;
+    margin: -3px 4px;
+}
+
+.membercentre:hover{
+    background: url(../img/index/button/try02.png) no-repeat 0 0;
+}
+
+/*登出*/
+.logout_but{
+    width: 37px;
+    height: 20px;
+    color: #8e6434;
+    font-size: 12px;
+    font-weight: bold;/*粗體*/
+    text-align: right;
+    line-height: 20px;
+    background: url(../img/index/button/signout01.png) no-repeat 0 5px;
+    display: block;
+    float: left;
+}
+
+.logout_but:hover{
+    color: #000000;
+    background: url(../img/index/button/signout02.png) no-repeat 0 5px;
+}
+/*logout-3 會員已登入 結束*/
+/*登入資訊 結束*/
+
+
+/*優惠活動上方新*/
+.new_box{
+    width: 38px;
+    height: 22px;
+    position: relative;
+}
+
+.new_icon{
+    width: 38px;
+    height: 22px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 11px;
+    text-align: center;
+    background: url(../img/index/new01.png) no-repeat 0 0;
+    top: 100px;
+    left: 580px;
+    position: absolute;/*設定絕對定位*/
+}
+
+/*上方選單 開始*/
+.game_menu{
+    width:1000px;
+    height: 40px;
+    margin: 0 auto;
+    float: left;
+}
+
+.menuicon a{
+    width:125px;
+    height: 40px;
+    font-size:20px;
+    text-align: center;
+    line-height: 40px;
+    font-family: "微軟正黑體";
+    font-weight: bold;/*粗體*/
+    color: #fff;
+    float: left;
+    background: url(../img/index/button/menu01.png) no-repeat 0 0;
+}
+
+.menuicon a:hover{
+    color: #4b0072;
+    background: url(../img/index/button/menu02.png) no-repeat 0 0;
+}
+/*上方選單 結束*/
+/*上方header 結束*/
+
+/*公告開始*/
+.note{
+    width: 100%;
+    height: 30px;
+    background: url(../img/index/notice-bg.png) repeat-x 0 0;
+/*
+    z-index: 5;
+    position: absolute;
+*/
+}
+
+.note_inside{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.note span{
+    width: 93px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: right;
+    font-weight: bold;
+    color: #d4d4d4;
+    float: left;
+    background-image: url(../img/index/icon-notice.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.marquee{
+  width: 903px; /* the plugin works for responsive layouts so width is not necessary */
+  height: 30px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 30px;
+  color: #d4d4d4;    
+  margin: 0px 95px;
+}
+/*公告結束*/
+
+/*內容 開始*/
+
+/*內容 結束*/
+
+
+/*網頁資訊 版權內容 開始*/
+footer{
+    width: 100%;
+    height: 304px;
+    background: url(../img/index/footer.jpg) no-repeat;
+    margin-bottom: auto;
+    display: block;
+    float: left;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.footer_inside{
+    width: 1000px;
+    height: 304px;
+    margin: 0 auto;/*置中*/
+}
+
+/*關於我開始*/
+.provision_box{
+    width: 1000px;
+    height: 45px;
+    float: right;
+}
+
+.provision{
+    width: 636px;
+    height: 45px;
+    margin: 0 auto;/*置中*/
+}
+
+.provision li{
+    width: 106px;
+    height: 45px;
+    float: left;
+}
+
+.provision span{
+    display: block;
+    float: left;
+    margin-top: -35px;
+    font-size: 18px;
+    color: #81511c;
+}
+
+.provision li a{
+    width: 100%;
+    height: 100%;
+    display: block;/*顯示區塊*/
+    color: #f9c519;
+    font-size: 14px;
+    font-family: "微軟正黑體";
+    font-weight: bold;/*文字粗體*/
+    line-height: 45px;/*文字內字距*/
+    text-align: center;/*文字置中*/
+    float: left;
+}
+
+.provision li a:hover{
+    color: #81511c;
+}
+/*關於我結束*/
+
+/*建议浏览器開始*/
+.browser_box{
+    width:645px;
+    height: 41px;
+    margin-top: 25px;
+    float: left;
+}
+
+.comment_text{
+    width:72px;
+    height: 41px;
+    font-size: 12px;
+    line-height: 41px;
+    color: #fff;
+    float: left;
+}
+
+.browser li{
+    width: 38px;
+    height: 41px;
+    margin: 0 13px;
+}
+
+.ie {
+    background-image: url(../img/index/ie-logo.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.chrome {
+    background-image: url(../img/index/Chrome-Logo.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.firefox {
+    background-image: url(../img/index/firefox.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+/*建议浏览器結束*/
+
+/*右下qrcode開始*/
+.qrcode_box{
+    width: 270px;
+    height: 154px;
+    margin-top: 25px;
+    float: right;
+}
+.f_qrcode{
+    width: 109px;
+    height: 109px;
+    float: left;
+}
+
+.f_qrcode a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../img/index/f_qrcode.png);
+    background-repeat: no-repeat;
+}
+
+.qrcode_text{
+    width:140px;
+    height: 63px;
+    font-size: 12px;
+    line-height: 20px;
+    margin: -83px 126px;
+    color: #fff;
+    float: left;
+}
+
+.f_icon{
+    width: 109px;
+    height: 25px;
+    float: left;
+}
+
+.logo_icon li{
+    width: 30px;
+    height: 25px;
+    margin: 12px 3px;
+    float: left;
+}
+
+.icon_01{
+    width: 30px;
+    height: 25px;
+    display: block;
+    background:url(../img/index/firm.png) no-repeat 0 0;
+}
+
+.icon_02{
+    width: 30px;
+    height: 25px;
+    display: block;
+    background-image:url(../img/index/firm.png);
+    background-repeat: no-repeat;
+    background-position: -42px 0px;
+}
+
+.icon_03{
+    width: 30px;
+    height: 25px;
+    display: block;
+    background-image:url(../img/index/firm.png);
+    background-repeat: no-repeat;
+    background-position: -83px 0px;
+}
+/*右下qrcode結束*/
+
+/*合作夥伴開始*/
+.partners{
+    width:675px;
+    height: 36px;
+    margin-top: 42px;
+    float: left;
+}
+
+.firm {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.firm li a{
+    width: 100%;
+    height: 100%;
+    display: block;/*顯示區塊*/
+}
+
+.firm_ag {
+    width: 97px;
+    height: 36px;
+    background-image: url(../img//index/firm_ag.png);
+    background-repeat: no-repeat;
+/*    background-position: 0px 10px;*/
+    float: left;
+}
+
+.firm_hogaming {
+    width: 149px;
+    height: 36px;
+    background-image: url(../img/index/firm_hogaming.png);
+    background-repeat: no-repeat;
+/*    background-position: 0px 10px;*/
+    float: left;
+}
+
+.firm_bbin {
+    width: 147px;
+    height: 36px;
+    background-image: url(../img/index/firm_bbin.png);
+    background-repeat: no-repeat;
+/*    background-position: 0px 10px;*/
+    float: left;
+}
+
+.firm_fc {
+    width: 212px;
+    height: 36px;
+    background-image: url(../img/index/firm_fc.png);
+    background-repeat: no-repeat;
+/*    background-position: 0px 20px;*/
+    float: left;
+}
+
+.firm_18 {
+    width: 45px;
+    height: 36px;
+    background-image: url(../img/index/firm_18.png);
+    background-repeat: no-repeat;
+/*    background-position: 0px 17px;*/
+    float: left;
+}
+
+.line{
+    width: 965px;
+    height: 1px;
+    margin-top: 24px;
+    border-bottom: 1px solid #ae5da1;/*底線 1px實線*/
+    float: left;
+}
+
+.copyright{
+    width: 1000px;
+    height: 13px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 20px auto;/*置中*/
+    line-height: 12px;
+    float: left;
+}
+/*合作夥伴結束*/
+/*最下方footer結束*/
+
+
+
+/*網頁資訊 版權內容 結束*/
+
+/*@media all and (max-width: 1366px){
+    .login_box{width: 590px;}
+    .new_icon{right: 510px;}
+}*/
